@@ -16,3 +16,10 @@ const my_object = object[Math.floor(Math.random() * object.length)];
 
 console.log(`${my_subject} ${my_predicate} ${my_adj} ${my_object}.`);
 
+console.log(`%c  
+                   /\\_/\\   
+                  / @ @ \\
+                 ( > º < )
+                   >>x<< 
+                  /  O  \\ 
+`,`font-family: monospace`);
