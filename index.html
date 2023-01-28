@@ -8,16 +8,27 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Random Message</title>
-    <meta name="description" content="">
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
   </head>
   <body>
     <!--[if lt IE 7]>
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
-    <h1>Random Message</h1>
-    <p>Reload the page to see a new random message in the console</p>
-    <script src="script.js" async defer></script>
+    <header>
+      <h1 id="title">Random Message</h1>
+    </header>
+    <main>
+      <img id="reader" src="reader.svg" alt="reader">
+      <p id="instruction">Click the button below to see a new funny sentence.</p>
+      <button id="getSentence" onclick="randomSentence()">New Sentence</button>
+      <p id="display"></p>
+    </main>
+    <footer>
+      <small>&copy; Copyright 2023, Delab, Humor Department
+      </small>
+    </footer>
   </body>
 </html>

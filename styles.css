@@ -1,0 +1,41 @@
+body {
+  padding-left: 15px;
+  padding-right: 15px;
+  background-color: black;
+  color: rgb(255, 252, 217);
+  font-size: 18px;
+}
+
+#title {
+  color: rgba(164,8,43,200);
+}
+
+#reader {
+  position: absolute;
+  right: 0;
+  top: 15px;
+  width: 150px;
+}
+
+#getSentence {
+  margin-left: 15px;
+  background-color: rgba(16,140,199,200);
+  color: white;
+  padding: 10px 15px 10px 15px;
+  font-size: 20px;
+}
+
+#display {
+  margin-left: 15px;
+  margin-top: 30px;
+  font-size: 28px;
+  color: white;
+}
+
+header {
+  margin-right: 150px;
+}
+
+footer {
+  padding-top: 40px;
+}
