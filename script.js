@@ -2,7 +2,7 @@ const subject = ['Grandma', 'Harry Potter', '', 'Little girl', 'Pinnoccio', 'Pet
 
 const predicate = ['eats', 'hacks', 'bites', 'bakes', 'paints', 'cuts', 'mashes', 'mixes', 'tinkers', 'teaches', 'builds', 'throws'];
 
-const adj = ['purple', 'fat', 'fluffy', 'wavy', 'soft', 'dirty', 'rugged', 'useless', 'funny', 'crooked', 'learned', 'best', 'worst', 'crazy'];
+const adj = ['purple', 'fat', 'fluffy', 'wavy', 'soft', 'dirty', 'rugged', 'useless', 'funny', 'crooked', 'learned', 'best', 'worst', 'crazy', 'lazy'];
 
 const object = ['trees', 'lemons', 'meatballs', 'streets', 'schools', 'fish', 'water', 'phones', 'frogs', 'lightsabers', 'hedgehogs'];
 
